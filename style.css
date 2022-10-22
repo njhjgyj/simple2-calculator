@@ -1,0 +1,88 @@
+.tdclass {
+    color: black;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20%;
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+}
+
+.tdclass:hover {
+    background-color: gray;
+    color: white;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 64%;
+    text-align: center;
+}
+
+#maindiv {
+    background-color: aqua;
+    width: 20%;
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+}
+
+#cleardiv {
+    text-align: center;
+}
+
+#secdiv {
+    text-align: center;
+}
+
+#cancelbutt {
+    border: none;
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#clearbutt {
+    border: none;
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#cancelbutt:hover {
+    background-color: gray;
+    color: white;
+
+}
+
+#clearbutt:hover {
+    background-color: gray;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media screen and (max-width: 1500px) and (min-width: 280px) {
+
+    #maindiv {
+        width: 100%;
+        position: absolute;
+        right: -0px;
+        bottom: 5%;
+    }
+}

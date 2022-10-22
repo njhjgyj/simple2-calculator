@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Calculator work -->
+
+    <div id="maindiv">
+
+        <h1>Calculator</h1> <br>
+
+        <div id="secdiv">
+
+            <input type="search" name="" id="inp1"
+                onfocus="this.style.backgroundColor = 'rgb(218, 218, 218)'; this.style.color = 'red';"
+                onblur="this.style.color = 'inherit';this.style. backgroundColor = 'inherit'">
+
+        </div> <!-- secdiv ends here --> <br>
+
+        <div id="cleardiv"><br><br><br>
+
+            <button onclick="clear1()" id="clearbutt">Clear</button>
+
+        </div> <!-- cleardiv ends here --> <br>
+
+        <table>
+            <div id="thirddiv">
+
+                <tr id="tr1">
+
+                    <td onclick="foo1(7)" id="td7" class="tdclass">7</td>
+                    <td onclick="foo1(8)" id="td8" class="tdclass">8</td>
+                    <td onclick="foo1(9)" id="td9" class="tdclass">9</td>
+                    <td onclick="foo1('*')" id="tdmulti" class="tdclass">*</td>
+
+                </tr>
+                <!-- </table> -->
+
+            </div> <!-- thirddiv ends here --> <br>
+
+            <div id="fourthdiv">
+
+                <!-- <table> -->
+                <tr id="tr2">
+
+                    <td onclick="foo1(4)" id="td4" class="tdclass">4</td>
+                    <td onclick="foo1(5)" id="td5" class="tdclass">5</td>
+                    <td onclick="foo1(6)" id="td6" class="tdclass">6</td>
+                    <td onclick="foo1('-')" id="tdmines" class="tdclass">-</td>
+
+                </tr>
+                <!-- </table> -->
+
+            </div> <!-- fourthdiv ends here --> <br>
+
+            <div id="fifthdiv">
+
+                <!-- <table> -->
+                <tr id="tr3">
+
+                    <td onclick="foo1(1)" id="td1" class="tdclass">1</td>
+                    <td onclick="foo1(2)" id="td2" class="tdclass">2</td>
+                    <td onclick="foo1(3)" id="td3" class="tdclass">3</td>
+                    <td onclick="foo1('+')" id="tdplus" class="tdclass">+</td>
+
+                </tr>
+                <!-- </table> -->
+
+            </div> <!-- fifthdiv ends here --> <br>
+
+            <div id="sixthdiv">
+
+                <!-- <table> -->
+                <tr id="tr4">
+
+                    <td onclick="foo1(0)" id="td0" class="tdclass">0</td>
+                    <td onclick="foo1('.')" id="tdpoint" class="tdclass">.</td>
+                    <td onclick="foo1('/')" id="tddivide" class="tdclass">/</td>
+                    <td onclick="foo2()" id="tdequal" class="tdclass">=</td>
+
+                </tr>
+                <!-- </table> -->
+
+            </div>
+
+        </table><br><br>
+
+
+    </div> <!-- maindiv ends here -->
+
+    <!-- Calculator work finish here -->
+
+    <script src="app.js"></script>
+
+</body>
+</html>
