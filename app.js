@@ -12,6 +12,6 @@ function foo2(){
 
 function clear1(){
     var d = document.getElementById('inp1');
-    d.value = 'Cleared';
+    d.value = '';
 }
 // calculator work finish here
